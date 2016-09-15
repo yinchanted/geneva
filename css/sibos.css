@@ -1,0 +1,7 @@
+#dc-chart-scan.dc-chart rect.bar {
+    width: 40px;
+}
+
+#dc-chart-stream.dc-chart text{
+    fill: #E64A19;
+}
