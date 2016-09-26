@@ -308,7 +308,7 @@ d3.csv("./sibos.csv", function (data) {
         .width(700)
         .height(300).margins({ top: 10, right: 30, bottom: 20, left: 50 })
         .legend(dc.legend().x(60).y(20))
-        //.filter([2014, 2017])
+        //.filter([2014, 2016])
         .x(d3.scale.linear().domain([2013.1, 2016.9]))
         .elasticY(true)
         .ordinalColors(sessionDaysColors)
