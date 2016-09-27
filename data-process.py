@@ -1,14 +1,11 @@
 import csv
 
-inputfile = open('sibos_2014.csv', 'r')
-outputfile = open('sibos_2014_modified.csv', 'w')
+inputfile = open('sibos2016_21.csv', 'r')
+outputfile = open('sibos2016_21modified.csv', 'w')
 
 days = {
-    "9/28/2014": "DAY0",
-    "9/29/2014": "DAY1",
-    "9/30/2014": "DAY2",
-    "10/1/2014": "DAY3",
-    "10/2/2014": "DAY4"}
+    "9/26/2016": "DAY1",
+    "9/27/2016": "DAY2"}
 
 #attendees = set()  
 csvReader = csv.reader(inputfile)
