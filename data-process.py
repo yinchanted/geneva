@@ -1,7 +1,7 @@
 import csv
 
-inputfile = open('sibos2016_3.csv', 'r')
-outputfile = open('sibos2016_3modified.csv', 'w')
+inputfile = open('sibos2016_4.csv', 'r')
+outputfile = open('sibos2016_4modified.csv', 'w')
 
 days = {
     "9/26/16": "DAY1",
